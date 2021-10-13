@@ -1,0 +1,17 @@
+#next-button-feature {
+    background-color: rgba(161, 155, 155, 0.698);
+    height : 70%;
+    position: relative;
+    left: -40px;
+    top: 100px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    
+  }
+
+ #style_img {
+    width: 100%;
+    height: auto;
+
+}
+

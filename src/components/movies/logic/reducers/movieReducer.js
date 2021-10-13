@@ -1,20 +1,31 @@
 import axios from "axios"
-import {getMovies ,postMovies } from "../actions/movieActions"
-const baseURL = "http://127.0.0.1:8000/api/gettoken/"
-function getMovieReducer(state={}, action){
+const baseURL = "http://127.0.0.1:8000/movies/movies-images/"
+
+
+const initialState = {
+    imgMovies : 0,
+}
+const getMovieReducer =  (state = initialState, action) => {
     switch (action.type){
         case "get":
-            axios.get(baseURL).then(function(response){
-                return response
-            })
+  
+            return {
+                ...state,
+                imgMovies: action.payload
+            }
+      
+
         case "post":
             axios.get(baseURL).then(function(response){ //same for sample testing
-                return response
+                console.log(response)
             })
+        default:
+            
+            return state
+
 
     }
-    
 
+};
 
-}
 export default getMovieReducer
