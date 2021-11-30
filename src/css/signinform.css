@@ -1,0 +1,28 @@
+#form {
+    color: black;
+    margin-top: 80px;
+    padding: 40px;
+    background-color: white;
+
+}
+#img-imdb {
+   border-width: 0;
+   background-color: white;
+   margin-left: 40px;
+   margin-bottom: 40px;
+}
+#signin-button {
+    width: 100%;
+    background-color: rgba(248, 193, 41, 0.719);
+    border-color: transparent;
+    color: black;
+}
+#signup-button {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-color:rgb(0, 0, 0);
+    color: black;
+    
+}
+
+

@@ -14,7 +14,11 @@ function FeatureToday() {
     const is_clicked = {
         flag : false,
     }
-    const { search } = useLocation();
+    // const { search } = useLocation();
+
+    // const addToBookmarked = () => {
+
+    // }
 
     useEffect(() => {
         console.log('[UseEffect FeatureToday]')
@@ -25,8 +29,8 @@ function FeatureToday() {
 
     function onclickMovie (key) {
         //Define Route here for clicked movies
-        window.location.assign("http://localhost:3000/?" + key);
-        console.log   ("Movie clicked : ", key);
+        window.location.assign("https://localhost:3000/movieId/" + key);
+        console.log   ("Movie clicked : ", key); //Testing
 
     }
 
@@ -37,7 +41,7 @@ function FeatureToday() {
         movies_with_cover_photo(state).map((movie)=>   
 
                     <div key={movie.movie.id} className="col-2">
-                        <img onClick={()=>onclickMovie(movie.movie.id)} src={movie.image} id="style_img"></img>
+                        <img onClick={()=>onclickMovie(movie.id)} src={movie.image} id="style_img"></img>
                     </div>
             );
 

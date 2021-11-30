@@ -1,0 +1,96 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li {
+    
+    display: inline;
+    /* float: left; */
+}
+nav {
+    
+    background-color: rgb(31, 30, 30);
+    color: white;
+    display: block;
+    padding: 16px;
+    
+}
+#IMDb-logo {
+    height: 35px;
+}
+
+#IMDb-logo:hover {
+    cursor: pointer;
+}
+
+.fa-bars {
+    color: rgb(144, 143, 143);
+    margin: 0;
+    padding: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0%;
+    position: relative;
+    bottom: -6px;
+}
+
+.fa-bars:hover {
+    color: rgb(144, 143, 143);
+    text-decoration: none;
+   
+}
+
+#movie-search {
+    width: 40%;
+}
+.fa-user {
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+.fa-user:hover {
+    color: white;
+    text-decoration: none;
+}
+#search-icon {
+    color: black;
+    position: relative;
+    right: 30px;
+}
+
+#search-icon:hover {
+    cursor: pointer;
+}
+
+.search-result {
+    background: white;
+    color: black;
+    right: -44px;
+    top: -1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid gray;
+    justify-content: center;
+}
+
+#result-image {
+    height: 80px;
+    
+}
+
+#clickable:hover {
+    cursor: pointer;
+}
+
+.result-title {
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+}
+
+/* .z-result {
+    position: relative;
+    z-index: -1;
+} */
+

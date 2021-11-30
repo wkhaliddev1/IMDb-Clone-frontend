@@ -1,0 +1,67 @@
+#heading-data {
+    font-size: 0.9rem;
+    background-color: rgb(49, 49, 49);
+    /* margin-top: 2cm; */
+    margin-bottom: 5px;
+}
+
+#dot {
+    font-size: 1.5rem;
+    /* padding: 4px; */
+    
+    
+}
+#cover-image {
+    /* height: 9.5cm;
+    position: relative;
+    left: 3.5cm; */
+    height: 360px;
+    width: 98%;
+    
+    /* position: relative;
+    right: 1cm; */
+}
+
+#cover-trailer {
+    /* yioutubeadasd */
+    /* position: absolute; */
+}
+
+#rating  {
+    /* text-align: right; */
+    position: relative;
+    left: 20cm;
+    font-size: 1.5rem;
+}
+
+#heading-left {
+    position: relative;
+    right: 18.5cm;
+    /* right: 25cm; */
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.black-bg {
+    background-color: rgb(49, 49, 49);
+}
+
+.padding-left-0 {
+    padding-left: 0;
+}
+
+#bookmark-icon {
+    
+}
+
+#bookmark-icon:active {
+    transform: translateY(4px);
+}
+#bookmar-icon:hover {
+    opacity: 50%;
+}
+
+

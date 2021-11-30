@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { useState, useEffect } from 'react'
 import {fetchPersonalDetail} from "../../movies/logic/actions/movieActions"
 import store from "../../index"
+import '../../../css/Carousel.css'
 
 function Carousel(props) {
 
@@ -78,8 +79,8 @@ function CarouselFeed(props) {
                                 <div className="card-header">{movie.movie.title}</div>
                                 <button className="btn btn-dark">Trailer</button>
                             </div>
-                            <div className="card-body">
-                                {movie.movie.description}
+                            <div className="card-body"> 
+                                {movie.movie.description.slice(0,70)+"..."}
                             </div>
                         </div>
                     </div>
@@ -123,7 +124,7 @@ function CarouselPart() {
     
     return (
         
-        <div className="container" >
+        <div className="container carousel" >
             <div className="row">
                 <div className="col-8">   
                     <Carousel movies = {state.imgMovies}/>     

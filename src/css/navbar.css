@@ -1,0 +1,22 @@
+.fa-user {
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255); 
+}
+
+.fa-bars {
+    color: rgb(63, 62, 62);
+}
+/* .navbar-custom {
+    text-align: justify;
+} */
+#loged-user {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+#navbar-custom button {
+    float: right;
+}
+/* #centered {
+    justify-content: center;
+} */

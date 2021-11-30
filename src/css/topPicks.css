@@ -1,0 +1,14 @@
+
+#top-picks-card {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+#img_topPicks {
+    width: 182px;
+    /* height: 40vh; */
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+    right: 15px;
+}
